@@ -1,0 +1,12 @@
+{
+  "name": "conformer",
+  "main": "lib/conformer.js",
+  "ignore": [
+    "**/.*",
+    "component.json",
+    "package.json",
+    "Makefile",
+    "tests",
+    "examples"
+  ]
+}
