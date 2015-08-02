@@ -1,6 +1,6 @@
 # Conformer
 
-Conformer is a dependency free ie9 and up library for matching container heights focusing on speed.
+Conformer is a dependency free ie9 and up library for matching container heights.
 
 It is AMD/Common enabled as well as living on the window if it needs to, and available through NPM and Bower.
 
@@ -51,7 +51,7 @@ Takes 'all' or 'row'. Defaults to row, which matches all items at same offset. A
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Sam Estok
+Copyright (c) 2015 Sam Estok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
