@@ -1,12 +1,28 @@
 {
-  "name": "conformer",
-  "main": "lib/conformer.js",
+  "name":        "conformer",
+  "version":     "0.1.2",
+  "description": "Dependency free height matching for groups of dom elements.",
+  "homepage":    "https://github.com/faction23/conformer",
+  "main":        ["lib/conformer.js"],
+
+  "author":  ["Sam Estok <sam@faction23.com>"],
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/faction23/conformer.git"
+  },
+
+  "keywords": [
+    "images",
+    "lazy",
+    "load",
+    "scroll"
+  ],
+
   "ignore": [
     "**/.*",
-    "component.json",
-    "package.json",
-    "Makefile",
-    "tests",
-    "examples"
+    "README.md",
+    "package.json"
   ]
 }

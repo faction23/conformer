@@ -1,20 +1,50 @@
-# conformer
+# Conformer
 
+Conformer is a dependency free ie9 and up library for matching container heights focusing on speed.
 
-
-[![Build Status](https://secure.travis-ci.org//conformer.png)](http://travis-ci.org//conformer)
+It is AMD/Common enabled as well as living on the window if it needs to, and available through NPM and Bower.
 
 ## Install
     
-    npm install -g conformer
+NPM: 
+    
+    npm install conformer --save
+    
+Bower:    
+    
+    bower install conformer -S
 
 ## Usage
-    
-    conformer [options]
 
-## Test
+```
+    var Conformer = require('conformer');
+    var conformer = new Conformer({
+                    debounceRate: 200,
+                    selector: '.a-custom-selector',
+                    threshold: MOBILE_BREAKPOINT,
+                    type: 'all'
+                });
+```
 
-    make test
+## Options
+
+### debounceRate
+
+Resize events are debounced. The default is 200ms, feel free to adjust.
+
+### selector
+
+Uses querySelectorAll. Defaults to '.conformer'. 
+
+### threshold
+
+Many mobile layouts wont need height matching, whereas desktop will. Pass your mobile threshold here.
+
+Defaults to 0.
+
+### type
+
+Takes 'all' or 'row'. Defaults to row, which matches all items at same offset. All sets the entire dom group to the same height.
 
 
 ## License
